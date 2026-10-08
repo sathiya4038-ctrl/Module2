@@ -1,0 +1,480 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--c2);
+
+}
+
+:root {
+  --b: #000000;
+  --w: #ffffff;
+  --c1: #e5f0ff;
+  --c2: #cce0ff;
+  --c3: #99c2ff;
+  --c4: #66a3ff;
+  --c5: #3385ff;
+  --c6: #0066ff;
+  --c7: #0052cc;
+  --c8: #003d99;
+  --c9: #002966;
+  --c10: #001433;
+  --c11: #000e24;
+}
+
+/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKwCGbvjMnSHAxsLhC4TZPwp9hyQk3fw4QmbpfWC5ZGg&s=10" class="card-img-top" alt="...">
+ 
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp0M_ALrwpll3g4ajO3nBFPd4STlgM_mh_p-DnY_X7mQ&s=10" class="card-img-top" alt="...">
+      <img src="https://media.vogue.co.uk/photos/6842b8dd1218ff86ff31f76a/3:2/w_4593,h_3062,c_limit/Nautilus.jpg" class="card-img-top" alt="..."> */
+
+/* nav starts  */
+.navbar-brand {
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  /* background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%) */
+  /* background: linear-gradient(140deg,rgb(21, 10, 102) 50%, rgba(0,255, 0,0.5) 0%, rgba(87, 87, 215, 0.5) 100%) */
+}
+.nav-con {
+  background: #000046;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1cb5e0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* .btn{
+  color:  white;
+} */
+.sign-btn{
+ 
+  background-color: var(--c6);
+  
+}
+
+.s-btn{
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  border-radius:10% ;
+
+}
+
+.s-btn:hover{
+  background-color: white;
+  color:black;
+  
+
+}
+.btn-1{
+ 
+  color: white;
+ 
+}
+.btn-1:hover{
+ 
+  color: black;
+  background-color: white;
+} 
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 50px;
+}
+.nav-item a {
+  color:white;
+}
+.nav-item a:hover {
+
+  background-color: white;
+  border-radius: 10%;
+}
+header{
+  position:sticky;
+  top:0;
+
+  
+}
+
+/* nav end  */
+
+/* container 1 start */
+.container {
+  width: 100%;
+  height: auto;
+  
+
+}
+.container-1 {
+  background:
+    linear-gradient(
+      120deg,
+      rgba(204, 224, 255, 0.64),
+      rgba(51, 133, 255, 0.603)
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzf5QdPGWpOACu0RIFcrc9CohBi0lr0er7DoXR_TcF1A&s=10?auto=format&fit=crop&w=1600&q=80"),
+    center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  gap: 1rem;
+  padding: 4rem;
+ 
+}
+.sub-cont1 h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--c9);
+  font-weight: 700;
+  font-size: 4vw;
+}
+.sub-cont1 h3 {
+  font-size: larger;
+  color: var(--c9);
+}
+.sub-cont1 p {
+  font-size: larger;
+  color: var(--c2);
+}
+.sub-cont1 {
+  padding: 2rem;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+
+}
+.sub-cont2 h3 {
+  font-size: 3vw;
+  font-weight: bolder;
+  color: var(--c3);
+  font-family: "Courier New", Courier, monospace;
+}
+.sub-cont2 h2 {
+  font-size: 2rem;
+  color: var(--c7);
+}
+.sub-cont2 p {
+  color: var(--w);
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  color: var(--c10);
+}
+
+.sub-cont2 {
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhlmgf25VuA4rbD5e0HfXfC3MENJJ8R1wBcEUxW1TYVA&s=10"); */
+  width: 40%;
+  margin: auto;
+  border-radius: 10%;
+  padding: 2rem;
+  /* backdrop-filter: blur(5px); */
+  box-shadow: 5px 5px 5px 10px var(--c8);
+  
+}
+.btn-1,
+.btn-2 {
+  margin: 1rem;
+  background-color: var(--c6);
+  color: var(--w);
+  padding: 1em;
+  border-radius: 5rem;
+  font-weight: bolder;
+  box-shadow: 5px 5px 10px var(--c9);
+}
+.btn-1:hover,
+.btn-2:hover {
+  background-color: var(--w);
+  color: var(--c6);
+}
+
+.supports ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.supports ul li {
+  padding: 10px;
+  color: var(--c10);
+  font-weight: bolder;
+}
+/* container 1 end about container */
+
+/* container 2 start */
+.abt-1{
+  color: var(--c9);
+}
+
+
+
+.container-2 {
+   
+    background-color: var(--1);
+    width: 100%;
+}
+/* .cont2-box{
+ 
+  padding: 5rem;
+  background-color: rgba(6, 129, 228, 0.201);
+  box-shadow: 10px 8px 2px rgb(84, 96, 145);
+} */
+.container-2 .cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.card1-img {
+  background-image: url("https://flyingsquirrelholidays.com/wp-content/uploads/2020/11/Best-Places-for-World-Tour-2021-1.jpg");
+}
+.card2-img {
+  background-image: url(https://cdn.searchenginejournal.com/wp-content/uploads/2020/03/the-top-10-most-popular-online-payment-solutions-5e9978d564973.png);
+}
+.card3-img {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOY9xfb110TtFIcXVnLA-gmT0Tv62JowUqcpX0M-k8fw&s=10);
+}
+.card-img {
+  background-size: cover;
+  background-position: center;
+}
+
+.cont2-card1,
+.cont2-card2,
+.cont2-card3 {
+  border-radius: 1em;
+  overflow: hidden;
+  background: white;
+  box-shadow: 5px 5px 10px 5px var(--c4);
+
+
+}
+.sub_cont2_card {
+  transition: all 0.5s;
+}
+.sub_cont2_card:hover {
+  transform: scale(1.1);
+}
+.card-img {
+  min-height: 16rem;
+  background-size: cover;
+  background-position: center;
+}
+.card-cont {
+  padding: 1.5rem;
+
+}
+
+.card-cont p {
+  color: var(--v8);
+
+}
+.cont2-card1 h3,
+.cont2-card2 h3,
+.cont2-card3 h3 {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--c8);
+  font-weight: 700;
+  font-size: larger;
+}
+.cont2-card1 p,.cont2-card2 p,.cont2-card3 p {
+    color: var(--b);
+    font-weight: 600;
+}
+
+.container-2 ol li{
+  color: var(--c7);
+
+}
+/* container 2 end */
+
+/* container 3 starts destination container */
+.container-3 .cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.container-3 .card1-img {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKwCGbvjMnSHAxsLhC4TZPwp9hyQk3fw4QmbpfWC5ZGg&s=10);
+}
+.container-3 .card2-img {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp0M_ALrwpll3g4ajO3nBFPd4STlgM_mh_p-DnY_X7mQ&s=10);
+}
+.container-3 .card3-img {
+  background-image: url(https://media.vogue.co.uk/photos/6842b8dd1218ff86ff31f76a/3:2/w_4593,h_3062,c_limit/Nautilus.jpg);
+  
+}
+.des-btn-1, .des-btn-2, .des-btn-3{
+  margin-left: 150px;
+  margin-top: 70;
+  background-color: #000046;
+ 
+  text-align: center;
+  justify-content: center;
+  color:white;
+  border-radius: 20rem;
+  padding: 1em;
+}
+
+.des-btn-1:hover, .des-btn-2:hover, .des-btn-3:hover{
+  background-color: white;
+  color:#000046;
+}
+
+
+.card-img {
+  background-size: cover;
+  background-position: center;
+}
+
+
+.cont2-card1,
+.cont2-card2,
+.cont2-card3 {
+  border-radius: 1em;
+  overflow: hidden;
+  background: white;
+  box-shadow: 5px 5px 10px 5px var(--c4);
+
+
+}
+.sub_cont2_card {
+  transition: all 0.5s;
+}
+.sub_cont2_card:hover {
+  transform: scale(1.1);
+}
+
+.des-h1{
+  color: var(--c11);
+  text-align: center;
+  margin-top: 5px;
+}
+.des-para{
+  
+  font-size: 1.3rem;
+  color: var(--c8);
+}
+
+/* container 3 end */
+/* container 4 starts contact container */
+.container-4 {
+  margin-top: 2em;
+  padding: 2rem;
+}
+
+
+
+/* container 4 end */
+/* footer starts */
+.foot-sub {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+.foot-sub img{
+  height: 30px;
+  width: 30px;
+
+}
+.sub-btn{
+ 
+  color: white;
+  text-align: center;
+}
+.link{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  gap: 1rem;
+}
+.right{
+  color: whitesmoke;
+  text-align: center;
+  padding: 30px;
+}
+
+
+/* footer end */
+.footer-1{
+  background-color:#000e24;
+}
+
+/* media query start */
+
+@media screen and (max-width: 679px) {
+  .container-1 {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .sub-cont1, .sub-cont2{
+
+    width: 60%;
+    margin: auto;
+  
+
+  }
+  .container-2 .cards {
+    display: grid;
+    grid-template-columns: 1fr; 
+   
+
+  }
+  .container-3 .cards{
+  display: grid;
+grid-template-columns: 1fr;
+}
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .container-1 {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  .sub-cont1, .sub-cont2{
+
+    width: 60%;
+    margin: auto;
+  
+
+  }
+  .container-2 .cards {
+    display: grid;
+    grid-template-columns: 1fr; 
+   
+
+  }
+  .container-3 .cards{
+  display: grid;
+grid-template-columns: 1fr;
+}
+}
+
+
+
+
+
+/* media query end */
+
+
+
+
+
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKwCGbvjMnSHAxsLhC4TZPwp9hyQk3fw4QmbpfWC5ZGg&s=10
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp0M_ALrwpll3g4ajO3nBFPd4STlgM_mh_p-DnY_X7mQ&s=10
+
+"https://media.vogue.co.uk/photos/6842b8dd1218ff86ff31f76a/3:2/w_4593,h_3062,c_limit/Nautilus.jpg

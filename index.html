@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h2 align="center">SIGNUP</h2>
+      <form id="signupform"  onsubmit="return signup()">
+        <div class="form-group">
+          <label>FirstName:</label>
+          <input type="text"
+            id="Firstname"
+            name="fname"
+            placeholder="Enter your FirstName"
+            value=""
+          />
+          <span id="fname-error" class="error-message"></span>
+        </div>
+        <div class="form-group">
+          <label>LastName:</label>
+          <input
+            type="text"
+            id="lastname"
+            name="fname"
+            placeholder="Enter your LastName"
+            value=""
+          />
+          <span id="lname-error" class="error-message"></span>
+        </div>
+        <div class="form-group">
+          <label>PhoneNo:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="fname"
+            placeholder="Enter your phone Number"
+            value=""
+          />
+          <span id="phone-error" class="error-message"></span>
+        </div>
+        <div class="form-group">
+          <label>Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="fname"
+            placeholder="Enter your MailID"
+            value=""
+          />
+          <span id="email-error" class="error-message"></span>
+        </div>
+
+         <div class="form-group">
+          <label>Location:</label>
+          <input type="text"
+            id="location"
+            name="fname"
+            placeholder="Enter your location"
+            value=""
+          />
+          <span id="location-error" class="error-message"></span>
+        </div>
+         <div class="form-group">
+          <label>Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="fname"
+            placeholder=" password"
+            value=""
+          />
+          <span id="password-error" class="error-message"></span>
+        </div>
+         <div class="form-group">
+          <label>Confirm Password:</label>
+          <input
+            type="password"
+            id="confirmpw"
+            name="fname"
+            placeholder="Confirm Password"
+            value=""
+          />
+          <span id="confirmpw-error" class="error-message"></span>
+        </div>
+        <div class="first">
+          <Button class="btn-1" type="submit">submit</button>
+          <button class="btn-2" onclick="clear()" id="one" type="reset">clear</button>
+        </div>
+      </form>
+      </div>
+    </main>
+   
+    <script src="js/index.js"></script>
+  </body>
+</html>

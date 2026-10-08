@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    box-sizing: border-box;
+    padding:5%;
+     border: 5px solid white;
+    background-color: rgb(19, 19, 74);
+    color: white;
+    box-shadow: 5px 5px 3px rgb(67, 67, 91);
+box-shadow: 5px -5px 3px rgb(67, 67, 91);
+}
+
+input[type="text"],input[type="password"]{
+    width: 100%;
+    border: black;
+   
+ 
+  
+}
+.btn-1,.btn-2{
+    
+    margin-right: 10px;
+     padding: 2%;
+
+}
+.first{
+    display: flex;
+    justify-content: end;
+   
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom:1em;
+   
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+ 
+
+}
