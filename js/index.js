@@ -59,6 +59,7 @@ function signup() {
   }
 
   if(password =="" ){
+
    
     passerror.textContent=("please enter the password");
     return false;
@@ -91,6 +92,35 @@ if(confirmpw =="" ){
 function clear(){
   var x=document.getElementById("one").value;
   x.value="";
+  var nerror = document.getElementById("fname-error");
+  // nerror.value="";
+  nerror.style.display="none";
+
+  var lnerror = document.getElementById("lname-error");
+  // lnerror.value="";
+  lnerror.style.display="none";
+
+  var pherror = document.getElementById("phone-error");
+  // pherror.value="";
+  pherror.style.display="none"
+
+  var eerror = document.getElementById("email-error");
+  // eerror.value="";
+  pherror.style.display="none"
+
+  var ler = document.getElementById("location-error");
+  // ler.value="";
+  ler.style.display="none"
+
+   var passerror=document.getElementById("password-error");
+  //  passerror.value="";
+   passerror.style.display="none";
+
+   var confirmerror=document.getElementById("confirmpw-error");
+  //  confirmerror.value="";
+   confirmerror.style.display="none"
+
+  
 }
 
 

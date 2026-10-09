@@ -21,6 +21,10 @@ function signin() {
     pass.style.color="red";
     nam.style.fontSize="small"
   } 
+
+  else if(username =="" || password =="" ){
+    alert("please check the user name or password");
+  }
   else {
    
     alert("login sucess");
